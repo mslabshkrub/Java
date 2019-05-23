@@ -1,0 +1,4 @@
+Airline{destination='Berlin', flightNum='143AG', aircraftType=TRANSPORT, departureTime=10:00 AM, days=[SUNDAY]}
+Airline{destination='Minsk', flightNum='451FG', aircraftType=POSTAL, departureTime=08:00 AM, days=[MONDAY, FRIDAY, TUESDAY]}
+Airline{destination='Paris', flightNum='451FG', aircraftType=POSTAL, departureTime=04:00 PM, days=[THURSDAY, FRIDAY, SATURDAY]}
+Airline{destination='London', flightNum='453HG', aircraftType=PASSENGER, departureTime=01:00 PM, days=[MONDAY, FRIDAY]}
