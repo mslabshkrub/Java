@@ -11,12 +11,6 @@ public class BusinessTripService {
         this.businessTrips = businessTrips;
     }
 
-    public void changeAccout(String oldS, String newS) {
-        for (BusinessTrip businessTrip : businessTrips) {
-            businessTrip.setEmployeeAccount(businessTrip.getEmployeeAccount().replace(oldS, newS));
-        }
-    }
-
     public void sort() {
         Arrays.sort(businessTrips);
     }

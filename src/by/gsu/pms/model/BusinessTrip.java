@@ -15,8 +15,8 @@ public class BusinessTrip implements Comparable{
         DAILY_ALLOWANCE_RATE = dailyAllowanceRate;
     }
 
-    public BusinessTrip(Byn dailyAllowanceRate, String employeeAccount, Byn transExp, int numOfDay) {
-        DAILY_ALLOWANCE_RATE = dailyAllowanceRate;
+    public BusinessTrip(String employeeAccount, Byn transExp, int numOfDay) {
+        DAILY_ALLOWANCE_RATE = new Byn(150);
         this.employeeAccount = employeeAccount;
         this.transExp = transExp;
         this.numOfDays = numOfDay;
