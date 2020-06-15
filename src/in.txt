@@ -1,0 +1,14 @@
+    daily-rate = 250
+indices = 1; 15 ; 4
+account01=cool
+transport01=500
+days01 = 5
+days02 = 3
+account02 = smart
+transport02=2500
+days15 = 1
+account15 = cool
+transport15 = 3000
+account04=super
+transport04=0
+days04=3
